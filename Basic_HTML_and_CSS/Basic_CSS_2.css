@@ -1,0 +1,10 @@
+p {
+    color: sandybrown;
+    background: beige;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-family: Marker Felt, sans-serif;
+    font-size: 20pt;
+    text-shadow: 2px 2px 4px #000000;
+}
