@@ -1,0 +1,38 @@
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 90%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+th {
+    height: 40px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+
+td:hover {
+    background-color: white;
+    color: seagreen;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: bold; 
+}
+
+tr, th {
+    background-color: whitesmoke;
+    color: black;
+}
+
+tr, td {
+    border: 2px solid black;
+    height: 30px;
+    background-color: seagreen;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, serif;
+}

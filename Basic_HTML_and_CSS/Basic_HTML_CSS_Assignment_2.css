@@ -1,0 +1,47 @@
+h2 {
+    display: table;
+    margin: 0px auto 0px auto;
+    padding: 9px;
+    background-color: lightgray;
+    color: goldenrod;
+    text-shadow: 0 0 3px #000000;
+    text-align: center;
+    font-size: 30px;
+    font-family: Marker Felt, sans-serif;
+}
+
+h3 {
+    display: table;
+    margin: 7px auto 0px auto;
+    padding: 6px;
+    background-color: lightgray;
+    color: lightsteelblue;
+    text-shadow: 0 0 3px #000000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+ol {
+    list-style: decimal;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+}
+
+ul {
+    list-style: circle;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+}
+
+li {
+    margin: -15px 20px;
+}
