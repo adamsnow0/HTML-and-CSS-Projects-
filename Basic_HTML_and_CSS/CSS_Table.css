@@ -1,0 +1,18 @@
+table {
+    border: 1px goldenrod;
+}
+
+td:hover {
+    background-color: antiquewhite;
+    color: firebrick;
+}
+
+tr, th {
+    background-color: khaki;
+    color: orange;
+}
+
+tr, td {
+    background-color: seagreen;
+    color: white
+}
