@@ -3,14 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Chaise Home Furnishings</title>
+        <link rel="stylesheet" href="./css/one_page_website.css">
     </head>
     <body>
     <!-- NAV -->
-        <div>
-            <div>
-                <ul>
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
                     <a href="#home" id="link"><li>HOME</li></a>
                     <a href="#gallery" id="link"><li>GALLERY</li></a>
+                    <a href="#video" id="link"><li>VIDEO</li></a>
                     <a href="#contact" id="link"><li>CONTACT</li></a>
                 </ul>
             </div>
@@ -19,9 +21,11 @@
         
         <!-- HOME -->
         <div id="home">
-            <div>
-                <div>
-                    <span>Chaise Home Furnishings</span>
+            <div class="container">
+                <div class="text-center">
+                    <div class="color-box">
+                        <span class="head-main">Chaise Home Furnishings</span>    
+                    </div>
                 </div>
             </div>
         </div>
@@ -31,52 +35,76 @@
         <section>
             <div id="gallery">
                 <h1>Gallery</h1>
-                <div>
+                <div class="flex-container">
                
                     <!-- PHOTO CONTAINER 1 -->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="./images/thumb/thumbnail_1.png" alt="Image of a burnt orange color chair.">
+                            <div class="photo-overlay">
+                                <h3>Click here for a new chair!</h3>
+                                <p>You're new chair is just a click away!</p>
+                            </div>
                         </div>
                     </div>
                     <!-- END PHOTO CONTAINER 1 -->
                     
                     <!-- PHOTO CONTAINER 2 -->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="./images/thumb/thumbnail_2.png" alt="Image of a white color chair.">
+                            <div class="photo-overlay">
+                                <h3>Click here for a new chair!</h3>
+                                <p>You're new chair is just a click away!</p>
+                            </div>
                         </div>
                     </div>
                     <!-- END PHOTO CONTAINER 2 -->
                     
                     <!-- PHOTO CONTAINER 3 -->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="./images/thumb/thumbnail_3.png" alt="Image of a gray color chair.">
+                            <div class="photo-overlay">
+                                <h3>Click here for a new chair!</h3>
+                                <p>You're new chair is just a click away!</p>
+                            </div>
                         </div>
                     </div>
                     <!-- END PHOTO CONTAINER 3 -->
                     
                     <!-- PHOTO CONTAINER 4 -->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="./images/thumb/thumbnail_4.png" alt="Image of a mustard yellow color chair.">
+                            <div class="photo-overlay">
+                                <h3>Click here for a new chair!</h3>
+                                <p>You're new chair is just a click away!</p>
+                            </div>
                         </div>
                     </div>
                     <!-- END PHOTO CONTAINER 4 -->
                     
                     <!-- PHOTO CONTAINER 5 -->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="./images/thumb/thumbnail_5.png" alt="Image of a floral orange and blue color chair.">
+                            <div class="photo-overlay">
+                                <h3>Click here for a new chair!</h3>
+                                <p>You're new chair is just a click away!</p>
+                            </div>
                         </div>
                     </div>
                     <!-- END PHOTO CONTAINER 5 -->
                     
                     <!-- PHOTO CONTAINER 6 -->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="./images/thumb/thumbnail_6.png" alt="Image of a brown clay color chair.">
+                            <div class="photo-overlay">
+                                <h3>Click here for a new chair!</h3>
+                                <p>You're new chair is just a click away!</p>
+                            </div>
                         </div>
                     </div>
                     <!-- END PHOTO CONTAINER 6 -->
@@ -89,25 +117,27 @@
         <br />
         
         <!-- VIDEO -->
-        <section>
-            <div>
-                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iclLe7GECZ0?si=MQtWQHJ9IrkzS_VQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <section id="video">
+            <div class="container">
+                <div class="video-container">
+                    <iframe width="840" height="472.5" src="https://www.youtube.com/embed/iclLe7GECZ0?si=MQtWQHJ9IrkzS_VQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
         <!-- END VIDEO -->
         
         <!-- CONTACT -->
-        <section>
-            <div id="contact">
-                <div>
-                    <div>
-                        <h2><span>Your next cozy chair awaits you.</span></h2>
-                        <p>
+        <section  id="contact">
+            <div class="container">
+                <div class="heading-padding">
+                    <div class="contact">
+                        <h2>
+                            <span>Your next cozy chair awaits you.</span>
+                        </h2>
+                        <p class="form-text">
                             If you'd like to order your chair today, please provide us with your basic contact information.
                         </p>
-                        <div>
+                        <div class="form-contact">
                             <form action="" method="post">
                                 <input class="rsvp" type="text" value="First Name">
                                 <br />
@@ -117,11 +147,11 @@
                                 <br />
                                 <input class="rsvp" type="text" value="Phone Number">
                                 <br />
-                                <div>
+                                <div class="submit">
                                     <input type="submit" value="Submit">
                                 </div>
                                 <br />
-                                <div class="form spacer">
+                                <div class="form-spacer">
                                     <label class="terms">Terms and Conditions</label>
                                 </div>
                             </form>
@@ -135,7 +165,7 @@
         <br />
         
         <!-- FOOTER -->
-        <div>
+        <div id="footer">
             Chaise Home Furnishings &nbsp;|&nbsp; &copy; 2023
         </div>
         <!-- END FOOTER -->
